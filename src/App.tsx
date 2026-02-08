@@ -12,8 +12,8 @@ function App() {
           <div className="nav-links">
             <a href="#features">Features</a>
             <a href="#how">How it works</a>
+            <a href="#download">Download</a>
             <a href="#stories">Stories</a>
-            <a href="#pricing">Pricing</a>
           </div>
           <button className="nav-cta">Join the beta</button>
         </nav>
@@ -23,13 +23,20 @@ function App() {
             <p className="eyebrow">Real-time speaking feedback</p>
             <h1>Speak with clarity, pace, and presence every time you present.</h1>
             <p className="lead">
-              Talking Coach is a real-time desktop AI that listens while you speak and
-              gives live guidance on pacing, clarity, and delivery for presentations,
-              interviews, and Zoom calls.
+              Talking Coach is a hackathon-built desktop AI that listens while you
+              speak and gives live guidance on pacing, clarity, and delivery for
+              presentations, interviews, and Zoom calls.
             </p>
             <div className="hero-actions">
-              <button className="primary">Start free trial</button>
-              <button className="ghost">Watch the 90-sec demo</button>
+              <a
+                className="primary"
+                href="https://drive.google.com/drive/folders/1YFTOWA0AqH0zGZln5_EVBlPKVqTi7GOf?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Download the build
+              </a>
+              <a className="ghost" href="#features">See features</a>
             </div>
             <div className="hero-meta">
               <div>
@@ -175,6 +182,53 @@ function App() {
         </div>
       </section>
 
+      <section className="section download" id="download">
+        <div className="download-card">
+          <div className="download-copy">
+            <p className="eyebrow">Hackathon build</p>
+            <h2>Download the Talking Coach desktop demo.</h2>
+            <p>
+              Get the latest Windows build and try the live coaching experience in
+              minutes. This demo runs locally and keeps your audio private.
+            </p>
+            <div className="download-actions">
+              <a
+                className="primary"
+                href="https://drive.google.com/drive/folders/1YFTOWA0AqH0zGZln5_EVBlPKVqTi7GOf?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Download from Drive
+              </a>
+              <a className="ghost" href="#how">How it works</a>
+            </div>
+          </div>
+          <div className="download-panel">
+            <div>
+              <h3>Demo details</h3>
+              <p>Windows 10/11 · 64-bit · built for the hackathon</p>
+            </div>
+            <div className="download-meta">
+              <div>
+                <span>Format</span>
+                <strong>.msi installer</strong>
+              </div>
+              <div>
+                <span>Includes</span>
+                <strong>Live pacing + clarity</strong>
+              </div>
+              <div>
+                <span>Setup</span>
+                <strong>1-2 minutes</strong>
+              </div>
+            </div>
+            <div className="download-note">
+              Built to demo real-time feedback with no cloud dependency.
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section testimonials" id="stories">
         <div className="section-title">
           <p className="eyebrow">Real voices</p>
@@ -214,24 +268,6 @@ function App() {
         </div>
       </section>
 
-      <section className="section cta" id="pricing">
-        <div className="cta-card">
-          <div>
-            <p className="eyebrow">Ready to sound unstoppable?</p>
-            <h2>Start your free trial and get live coaching today.</h2>
-            <p>
-              Choose the plan that fits your speaking schedule. Cancel any time, no
-              stress.
-            </p>
-          </div>
-          <div className="cta-actions">
-            <button className="primary">Start free trial</button>
-            <button className="ghost">Talk to sales</button>
-            <p>14-day free trial. No credit card required.</p>
-          </div>
-        </div>
-      </section>
-
       <footer className="footer">
         <div>
           <span className="brand-name">Talking Coach</span>
@@ -240,8 +276,8 @@ function App() {
         <div className="footer-links">
           <a href="#features">Features</a>
           <a href="#how">How it works</a>
+          <a href="#download">Download</a>
           <a href="#stories">Stories</a>
-          <a href="#pricing">Pricing</a>
         </div>
       </footer>
     </div>
